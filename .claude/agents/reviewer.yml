@@ -1,0 +1,15 @@
+---
+name: reviewer
+description: >
+  Expert code reviewer. Spawned automatically when reviewing 
+  code changes, PRs, or doing quality audits. Focuses on bugs,
+  security, and correctness — not style.
+model: sonnet
+allowed-tools:
+  - Read
+  - Grep
+  - Glob
+  - Bash(git diff:*)
+  - Bash(git log:*)
+  - Bash(git show:*)
+---
