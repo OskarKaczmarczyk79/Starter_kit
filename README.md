@@ -97,3 +97,4 @@ After Claude writes any `.ts`, `.tsx`, `.js`, or `.jsx` file, it automatically r
 
 **Free resource from the Claude Code course by AI Agents Accelerator**
 # Starter_kit
+# Aplikacja_OSI
