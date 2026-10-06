@@ -1,0 +1,23 @@
+### Główne reguły obliczeniowe:
+- **Biomasa stada (PCU - Population Correction Unit):**
+  - Standaryzowane wagi zwierząt wg EMA:
+    - Krowy (rzeźne i mleczne): 425 kg
+    - Jałówki: 200 kg
+    - Młode bydło i cielęta: 140 kg
+    - Byki i opasy: 425 kg
+  - Łączna biomasa stada = Suma (liczba sztuk w danej kategorii × standaryzowana waga).
+- **Wskaźnik zużycia substancji czynnej:**
+  - `Zużycie na biomasę [mg/PCU] = Zużycie antybiotyków, wszystkie grupy [mg] / Biomasa [kg]`
+  - `Zużycie roczne [mg/PCU] = (Zużycie antybiotyków [mg] × 4) / Biomasa [kg]` (dla ekstrapolacji kwartalnej z opcją przełączenia).
+- **Kategoryzacja leków wg EMA/AMEG (Tab. 1):**
+  - Kategoria A: Unikać (niedozwolone u zwierząt produkcyjnych).
+  - Kategoria B (CIAs - Critically Important Antibiotics): Ograniczać/unikać (np. cefalosporyny 3/4 gen., fluorochinolony, kolistyna).
+  - Kategoria C: Stosować ostrożnie (np. aminoglikozydy, makrolidy).
+  - Kategoria D: Pierwszy rzut, rozważne stosowanie (np. penicyliny, tetracykliny).
+- **Szacowanie ryzyka wg drogi podania (Tab. 2, skala 1-6):**
+  - 1: Miejscowe (dowymieniowe, krople)
+  - 2: Pozajelitowe indywidualne (dożylnie, domięśniowo)
+  - 3: Doustne indywidualne (tabletki, bolus)
+  - 4: Pozajelitowe stadne (metafilaksja)
+  - 5: Doustne stadne w wodzie / preparacie mlekozastępczym
+  - 6: Doustne w paszy / premiksach
