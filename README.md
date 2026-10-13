@@ -20,8 +20,11 @@ A ready-to-use `.claude/` configuration folder that gives you a professional Cla
 │   │   └── SKILL.md
 │   ├── code-review/       # /code-review — find bugs & issues
 │   │   └── SKILL.md
-│   └── test-writer/       # /test-writer — generate tests
-│       └── SKILL.md
+│   ├── test-writer/       # /test-writer — generate tests
+│   │   └── SKILL.md
+│   └── frontend-design/   # /frontend-design — distinctive UI design (Anthropic)
+│       ├── SKILL.md
+│       └── LICENSE.txt
 └── agents/
     └── reviewer.yml       # Subagent for isolated code reviews
 ```
@@ -71,6 +74,7 @@ After Claude writes any `.ts`, `.tsx`, `.js`, or `.jsx` file, it automatically r
 | `/explain-code` | Explains code in plain English, step by step |
 | `/code-review` | Reviews code for bugs, security, and improvements |
 | `/test-writer` | Writes comprehensive tests for existing code |
+| `/frontend-design` | Guidance for distinctive, intentional UI design (from [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/frontend-design), see LICENSE.txt) |
 
 ## Available Subagents
 
