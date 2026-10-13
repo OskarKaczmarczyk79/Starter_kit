@@ -1,0 +1,68 @@
+# Claude Code Ignore File
+# Files and directories listed here will be excluded from Claude's context
+# Similar to .gitignore syntax
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Cache
+.cache/
+.turbo/
+.vercel/
+.netlify/
+
+# Environment files (security)
+.env
+.env.local
+.env.production
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large binary files
+*.zip
+*.tar.gz
+*.mp4
+*.mov
+*.psd
+*.ai
+
+# Generated files
+*.generated.*
+*.min.js
+*.min.css
+*.map
+
+# Package lock files (large, not useful for context)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+
+#Raports
+coverage/
+
+#Python
+.venv/
+__pycache__/
+poetry.lock
+
+#Rust
+target/
+Cargo.lock
